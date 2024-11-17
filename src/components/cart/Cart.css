@@ -214,6 +214,7 @@ button:hover {
   }
 
   .cart-item-actions {
+    justify-content: center;
     flex-wrap: wrap; 
     gap: 10px;
   }
@@ -252,7 +253,7 @@ button:hover {
   }
 }
 
-/* Very Small Devices */
+
 @media (max-width: 480px) {
   .cart-container {
     padding: 10px;
