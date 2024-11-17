@@ -73,46 +73,37 @@
 
 
 @media (max-width: 768px) {
-  .main {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
-  .image {
-    margin-bottom: 10px;
-  }
-
-  .main div {
-    width: 100%;
-    justify-content: flex-start; 
-    margin-top: 10px;
-  }
 
   .main a {
-    font-size: 16px; 
+    font-size: 14px; 
   }
 
   .badge {
     top: -5px;
     right: -18px;
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
+    font-size: 10px;
+  }
+
+  .logout {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
     font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
   }
-
-  .logout {
-    width: 100%;
-    margin-top: 10px; 
+  
+  .logout:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
   }
-}
-@media (max-width: 480px) {
-  .main a {
-    font-size: 14px;
-    margin: 5px 0; 
-  }
-
-  .logout {
-    font-size: 14px; 
-    padding: 8px 10px;
+  
+  .logout:focus {
+    outline: none;
   }
 }
