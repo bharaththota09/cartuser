@@ -11,3 +11,43 @@
 .noproducts {
   height: 300px;
 }
+
+.allItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px; 
+}
+
+.noproducts {
+  height: 300px;
+  margin: 20px auto; 
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .allItems {
+    gap: 15px; 
+    padding: 10px; 
+  }
+
+  .noproducts {
+    height: 200px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .allItems {
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+    padding: 5px; 
+  }
+
+  .noproducts {
+    height: 150px; 
+  }
+}

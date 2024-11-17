@@ -72,3 +72,24 @@
 .signup-text:hover {
   text-decoration: underline;
 }
+
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  .login-header {
+    font-size: 1.5em;
+  }
+
+  .submit-btn {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  .signup-link {
+    font-size: 0.9em;
+  }
+}

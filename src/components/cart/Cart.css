@@ -174,3 +174,125 @@ button {
 button:hover {
   background-color: #388e3c;
 }
+
+
+@media (max-width: 768px) {
+  .cart-container {
+    padding: 15px;
+    margin: 10px auto;
+    width: 100%;
+    box-shadow: none; 
+  }
+  .cart-item {
+    flex-direction: column; 
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .cart-item-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .exceptImage {
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .desc {
+    margin-bottom: 10px; 
+  }
+
+  .cart-item-title {
+    font-size: 16px;
+  }
+
+  .cart-item-price {
+    font-size: 14px;
+  }
+
+  .cart-item-actions {
+    flex-wrap: wrap; 
+    gap: 10px;
+  }
+
+  .cart-item-actions button {
+    padding: 10px 15px;
+    font-size: 14px;
+    flex: 1; 
+  }
+
+  .cart-summary {
+    padding: 15px;
+  }
+
+  .cart-summary p {
+    font-size: 16px;
+  }
+
+  .emptyCart {
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px auto;
+  }
+}
+
+/* Very Small Devices */
+@media (max-width: 480px) {
+  .cart-container {
+    padding: 10px;
+  }
+
+  .cart-item {
+    padding: 8px;
+  }
+
+  .cart-item-title {
+    font-size: 14px;
+  }
+
+  .cart-item-price {
+    font-size: 12px;
+  }
+
+  .cart-item-actions button {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .cart-summary {
+    padding: 10px;
+  }
+
+  .cart-summary p {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}

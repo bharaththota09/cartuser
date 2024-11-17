@@ -28,3 +28,14 @@
   color: #aaa;
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+  .search-container {
+    width: 90%;
+  }
+
+  .search-bar {
+    font-size: 0.9em;
+    padding: 8px 12px;
+  }
+}
